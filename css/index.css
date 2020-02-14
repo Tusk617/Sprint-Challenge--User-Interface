@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid green;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -29,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    width: 970px;
+    margin: 2% 25%;
 }
 ol, ul {
 	list-style: none;
@@ -143,4 +145,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Here is where the index-header section begins */
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+header img {
+    display: flex;
+    margin-bottom: ;
+}
+
+header nav {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    display: flex;
+    text-decoration: none;
+    align-items: flex-end;
+}
+/* Here is the wrapper image for the home-page*/
+.jumbo-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.jumbo-img img {
+    width: 100%;
+    padding: 3% 0;
 }
