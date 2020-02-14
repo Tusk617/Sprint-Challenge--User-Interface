@@ -232,6 +232,16 @@ header nav a {
 
 /*About section*/
 
+/*Stretch goal!*/
+
+@keyframes spin-button {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
 
 .container-about-page {
     display: flex;
@@ -341,4 +351,8 @@ header nav a {
 .lets-work-together p {
     width: 85%;
     margin-left: 3%;
+}
+
+button:hover {
+    animation: spin-button 0.5s infinite linear;
 }

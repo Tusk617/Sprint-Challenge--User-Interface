@@ -34,7 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML add meaning to an HTML document. Which is useful In more ways than one. For one, it adds readability to the actual code itself. So if there’s an error or an issue with the code in general, it will be easier to identify what area of the code might have caused the issues.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+            Inline: Only uses up the minimum required space and can continue to the next line if required.
+Block: takes up a whole like of the page, and pushes elements to the next line if there isn’t room for both. 
 
 3. What are the 4 areas of the box model?
 
