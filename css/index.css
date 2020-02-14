@@ -1,3 +1,4 @@
+  
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -18,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: ;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -29,7 +30,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    width: 970px;
+    margin: 2% 25%;
 }
 ol, ul {
 	list-style: none;
@@ -67,7 +70,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -76,7 +79,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed black; 
 }
 
 .top-content .text-container {
@@ -112,6 +115,8 @@ p {
     justify-content: center;
 }
 
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +148,197 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Here is where the index-header section begins */
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+header img {
+    display: flex;
+    margin-bottom: ;
+}
+
+header nav {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    display: flex;
+    text-decoration: none;
+    align-items: flex-end;
+}
+/* Here is the wrapper image for the home-page*/
+.jumbo-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.jumbo-img img {
+    width: 100%;
+    padding: 3% 0;
+}
+
+/* Boxes */
+
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+/*About section*/
+
+
+.container-about-page {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container-about-page .about-header {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.container-about-page .about-header p {
+    margin-bottom: 20px;
+}
+
+.strat-hww {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.strategy {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.strategy p {
+    width: 90%;
+}
+
+.strategy button {
+    border: 2px solid black;
+    padding: 2% 5%;
+    border-radius: 15%;
+    margin: 2% 0 20px 2%;
+}
+
+.how-we-work {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    
+}
+
+.how-we-work p {
+    width: 90%;
+}
+
+.how-we-work button {
+    border: 2px solid black;
+    padding: 2% 5%;
+    border-radius: 15%;
+    margin: 2% 0 20px 2%;
+}
+
+.places-collab {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.places-we-work {
+    width: 45%;
+    border-bottom: 1px dashed lightgray;
+    margin-bottom: 20px;
+}
+
+.places-we-work p {
+    width: 90%;
+}
+
+.places-we-work button {
+    border: 2px solid black;
+    padding: 2% 5%;
+    border-radius: 15%;
+    margin: 2% 0 20px 2%;
+}
+
+.collaboration {
+    width: 45%;
+    border-bottom: 1px dashed lightgray;
+    margin-bottom: 20px;
+}
+
+.collaboration p {
+    width: 90%;
+}
+
+.collaboration button {
+    border: 2px solid black;
+    padding: 2% 5%;
+    border-radius: 15%;
+    margin: 2% 0 20px 2%;
+}
+
+.lets-work-together {
+    margin-bottom: 20px;
+}
+
+.lets-work-together h2 {
+    width: 50%;
+    margin-left: 3%;
+}
+
+.lets-work-together p {
+    width: 85%;
+    margin-left: 3%;
 }
