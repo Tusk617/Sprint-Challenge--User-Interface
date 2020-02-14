@@ -228,6 +228,7 @@ header nav a {
 
 .middle-content .boxes .box:nth-child(10) {
     background: dodgerblue;
+<<<<<<< HEAD
 }
 
 /*About section*/
@@ -355,4 +356,6 @@ header nav a {
 
 button:hover {
     animation: spin-button 0.5s infinite linear;
+=======
+>>>>>>> 2ef8ac937cbdf7fb06213705aaf49cd507f4ee31
 }
